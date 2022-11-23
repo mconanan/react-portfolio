@@ -5,9 +5,84 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 25%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.selfieContainer {
+  display: flex;
+}
+
+.selfie {
+  box-shadow: 10px 5px 5px gray;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-paragraph {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10px;
+  text-align: center;
+  text-indent: 50px;
+}
+
+.resume-container {
+  display: flex;
+  justify-content:center;
+}
+
+.resume {
+  margin-right: 25%;
+  margin-left: 0;
+  padding: 25px;
+  border-left: 1px solid black;
+}
+
+.small-resume {
+  justify-content: center;
+}
+
+.skills {
+  margin-left: 25%;
+  margin-right:0px;
+  padding: 25px;
+  border-right: solid 1px black;
+}
+
+.download:link {
+  color: grey;
+}
+
+.download {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  color: white;
+  background-image: url("./assets/ocean2.jpg");
+  padding-bottom: 8%;
+  display: flex;
+}
+
+.with-love {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid white 2px;
+  margin-top: 1%;
+}
+
+.header {
+  background-image: url("./assets/ocean.jpg");
+  padding-bottom: 15%;
+
+}
+
+.portfolio-container {
+  margin-bottom: 10%;
 }
